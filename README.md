@@ -1,5 +1,7 @@
 # Draw Square
 
+![](https://media.giphy.com/media/26BkLIH6ArvoKr1YI/giphy.gif)
+
 Your task is to create a function that takes two inputs - x & y. It will render / print a square based on the inputs recieved.
 
 ## Examples
@@ -38,7 +40,7 @@ o
 
 ## Further
 
-1. Modify your function to print squares with the following patterns:
+Modify your function to print squares with the following patterns:
 
 ```
 /**\
@@ -58,9 +60,11 @@ B  B
 CBBA
 ```
 
-2. Modify your function to take an array as a third input. The array should contain the pattern characters required to print the square.
+## Further further
 
-   - drawSquare(4,4,['o-o','| |','o-o']) should render:
+Modify your function to take an array as a third input. The array should contain the pattern characters required to print the square.
+
+- drawSquare(4,4,['o-o','| |','o-o']) should render:
 
 ```
 o-o
@@ -68,9 +72,11 @@ o-o
 o-o
 ```
 
-3. Create a new function that can read the output of drawSquare and print out the x, y and pattern values.
+## Furthest
 
-   - readSquare(drawSquare(4, 4, ['o-o', '| |', 'o-o'])) should return:
+Create a new function that can read the output of drawSquare and print out the x, y and pattern values.
+
+- readSquare(drawSquare(4, 4, ['o-o', '| |', 'o-o'])) should return:
 
 ```
 The square is 4 lines long and 4 lines tall. It is made of: 'o-o', '| |' & 'o-o'
