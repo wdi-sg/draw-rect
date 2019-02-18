@@ -2,7 +2,9 @@
 
 ![](https://media.giphy.com/media/26BkLIH6ArvoKr1YI/giphy.gif)
 
-Your task is to create a function that takes two inputs - x & y. It will render / print a Rectangle based on the inputs recieved.
+Your task is to create a function that takes two inputs - x & y.
+It will return a string representing the rectangle.
+Printing the function should render the rectangle. (console.log)
 
 ## Examples
 
@@ -36,6 +38,13 @@ o
 
 ```
 o
+```
+
+- drawSquare(2,2) should render:
+
+```
+oo
+oo
 ```
 
 ## Further
